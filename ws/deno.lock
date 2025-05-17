@@ -1,0 +1,68 @@
+{
+  "version": "5",
+  "specifiers": {
+    "jsr:@std/assert@1": "1.0.13",
+    "jsr:@std/internal@^1.0.6": "1.0.7",
+    "npm:fs@*": "0.0.1-security",
+    "npm:fs@^0.0.1-security": "0.0.1-security",
+    "npm:path@~0.12.7": "0.12.7",
+    "npm:ws@*": "8.18.2",
+    "npm:ws@^8.18.2": "8.18.2"
+  },
+  "jsr": {
+    "@std/assert@1.0.13": {
+      "integrity": "ae0d31e41919b12c656c742b22522c32fb26ed0cba32975cb0de2a273cb68b29",
+      "dependencies": [
+        "jsr:@std/internal"
+      ]
+    },
+    "@std/internal@1.0.7": {
+      "integrity": "39eeb5265190a7bc5d5591c9ff019490bd1f2c3907c044a11b0d545796158a0f"
+    }
+  },
+  "npm": {
+    "fs@0.0.1-security": {
+      "integrity": "sha512-3XY9e1pP0CVEUCdj5BmfIZxRBTSDycnbqhIOGec9QYtmVH2fbLpj86CFWkrNOkt/Fvty4KZG5lTglL9j/gJ87w==",
+      "tarball": "https://registry.npmmirror.com/fs/-/fs-0.0.1-security.tgz"
+    },
+    "inherits@2.0.3": {
+      "integrity": "sha512-x00IRNXNy63jwGkJmzPigoySHbaqpNuzKbBOmzK+g2OdZpQ9w+sxCN+VSB3ja7IAge2OP2qpfxTjeNcyjmW1uw==",
+      "tarball": "https://registry.npmmirror.com/inherits/-/inherits-2.0.3.tgz"
+    },
+    "path@0.12.7": {
+      "integrity": "sha512-aXXC6s+1w7otVF9UletFkFcDsJeO7lSZBPUQhtb5O0xJe8LtYhj/GxldoL09bBj9+ZmE2hNoHqQSFMN5fikh4Q==",
+      "dependencies": [
+        "process",
+        "util"
+      ],
+      "tarball": "https://registry.npmmirror.com/path/-/path-0.12.7.tgz"
+    },
+    "process@0.11.10": {
+      "integrity": "sha512-cdGef/drWFoydD1JsMzuFf8100nZl+GT+yacc2bEced5f9Rjk4z+WtFUTBu9PhOi9j/jfmBPu0mMEY4wIdAF8A==",
+      "tarball": "https://registry.npmmirror.com/process/-/process-0.11.10.tgz"
+    },
+    "util@0.10.4": {
+      "integrity": "sha512-0Pm9hTQ3se5ll1XihRic3FDIku70C+iHUdT/W926rSgHV5QgXsYbKZN8MSC3tJtSkhuROzvsQjAaFENRXr+19A==",
+      "dependencies": [
+        "inherits"
+      ],
+      "tarball": "https://registry.npmmirror.com/util/-/util-0.10.4.tgz"
+    },
+    "ws@8.18.2": {
+      "integrity": "sha512-DMricUmwGZUVr++AEAe2uiVM7UoO9MAVZMDu05UQOaUII0lp+zOzLLU4Xqh/JvTqklB1T4uELaaPBKyjE1r4fQ==",
+      "tarball": "https://registry.npmmirror.com/ws/-/ws-8.18.2.tgz"
+    }
+  },
+  "remote": {
+    "https://deno.land/std@0.200.0/async/delay.ts": "a6142eb44cdd856b645086af2b811b1fcce08ec06bb7d50969e6a872ee9b8659",
+    "https://deno.land/std@0.200.0/http/server.ts": "1b2403b3c544c0624ad23e8ca4e05877e65380d9e0d75d04957432d65c3d5f41"
+  },
+  "workspace": {
+    "dependencies": [
+      "jsr:@std/assert@1",
+      "npm:fs@^0.0.1-security",
+      "npm:path@~0.12.7",
+      "npm:ws@^8.18.2"
+    ]
+  }
+}
