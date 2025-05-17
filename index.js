@@ -76,5 +76,5 @@ wss.on("error", (error) => {
   console.error("🚨 服务器错误:", error);
 });
 
-console.log("深海聊天室，谁用谁弱智");
+console.log("🚀 深海聊天室，谁用谁弱智");
 console.log("🚀 WebSocket服务器正在监听3008端口...");
