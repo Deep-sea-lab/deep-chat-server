@@ -102,7 +102,7 @@ const htmlResponse = `
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>深海聊天室 - WebSocket 服务器</title>
-    <link rel="icon" type="image/png" href="https://blog.deep-sea.dpdns.org/images/logo/favicon-256x256.webp">
+    <link rel="icon" type="image/png" href="https://blog.deep-sea.filegear-sg.me/images/logo/favicon-256x256.webp">
     <script src="https://cdn.tailwindcss.com"></script>
     <style>
         body {
@@ -126,10 +126,10 @@ const htmlResponse = `
             这是一个 <span class="font-semibold">WebSocket 服务器</span>，无法通过浏览器直接访问。
         </p>
         <p class="text-md text-gray-600 mb-8">
-            请使用支持 WebSocket 的客户端，例如 <a href="https://chat.deep-sea.dpdns.org" class="text-blue-500 hover:underline">深海聊天室</a>，通过 <code class="bg-gray-100 p-1 rounded">wss://deep-chat-server.deno.dev</code> 连接。
+            请使用支持 WebSocket 的客户端，例如 <a href="https://chat.deep-sea.filegear-sg.me" class="text-blue-500 hover:underline">深海聊天室</a>，通过 <code class="bg-gray-100 p-1 rounded">wss://deep-chat-server.deno.dev</code> 连接。
         </p>
         <div class="flex justify-center space-x-4">
-            <a href="https://chat.deep-sea.dpdns.org" class="px-6 py-3 bg-blue-500 text-white rounded-lg hover:bg-blue-600 transition">
+            <a href="https://chat.deep-sea.filegear-sg.me" class="px-6 py-3 bg-blue-500 text-white rounded-lg hover:bg-blue-600 transition">
                 打开聊天室
             </a>
             <a href="https://github.com/denoland/deno" class="px-6 py-3 bg-gray-500 text-white rounded-lg hover:bg-gray-600 transition">
